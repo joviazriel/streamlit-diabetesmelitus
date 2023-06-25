@@ -14,7 +14,7 @@ with col1 :
     Pregnancies = st.text_input ('input nilai Kehamilan ( 1 - 9 )')
 
 with col2 :
-    Glucose = st.text_input ('input nilai Gula Darah ')
+    Glucose = st.text_input ('input nilai Gula Darah ( 70 - 99 )')
 
 with col1:
     BloodPressure = st.text_input ('input nilai Tekanan Darah')
@@ -26,7 +26,7 @@ with col1:
     Insulin = st.text_input ('input nilai Insulin')
 
 with col2 :
-    BMI = st.text_input ('input nilai Body Massa Index')
+    BMI = st.text_input ('input nilai Body Massa Index ( 18.5 - 25 )')
 
 with col1:
     DiabetesPedigreeFunction = st.text_input ('input nilai Riwayat Diabetes ( 0 - 2 )')
