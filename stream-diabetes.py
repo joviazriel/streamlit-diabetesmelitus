@@ -11,7 +11,7 @@ st.title('Prediksi Penyakit Diabetes Melitus ')
 col1, col2 = st.columns(2)
 
 with col1 :
-    Pregnancies = st.text_input ('input nilai Kehamilan')
+    Pregnancies = st.text_input ('input nilai Kehamilan ( 1 - 9 )')
 
 with col2 :
     Glucose = st.text_input ('input nilai Gula Darah ')
@@ -29,7 +29,7 @@ with col2 :
     BMI = st.text_input ('input nilai Body Massa Index')
 
 with col1:
-    DiabetesPedigreeFunction = st.text_input ('input nilai Riwayat Diabetes 0 - 2')
+    DiabetesPedigreeFunction = st.text_input ('input nilai Riwayat Diabetes ( 0 - 2 )')
 
 with col2 :
     Age = st.text_input ('input nilai Umur')
