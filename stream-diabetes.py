@@ -46,4 +46,4 @@ if st.button('Test Prediksi Diabetes'):
     else :
         diab_diagnosis = 'Pasien tidak terkena Diabetes'
 
-    st.danger(diab_diagnosis)
+    st.warning(diab_diagnosis)
